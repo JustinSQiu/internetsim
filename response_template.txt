@@ -1,0 +1,152 @@
+Response template for Binary & Number Systems
+Modified from Code.org APCSP, Unit 1
+
+[We are skipping lesson 1 - but watch the video.]
+
+I. Lesson 2
+
+* Challenge 1: Binary Message
+Your example of a binary question: Is it raining?
+How to signal an answer with your device?
+Answer A: Thumbs up
+Answer B: Thumbs down
+
+In what situations will your signaling device no longer work?
+If we can’t see each other.
+
+* Challenge 2: 4 Possible Messages
+
+How to send each message with your devide?
+Answer A: fist
+Answer B: 1 finger
+Answer C: 3 fingers
+Answer D: 5 fingers
+
+* Challenge 3: 8 Possible Messages
+Answer A: 1 finger
+Answer B: 2 finger
+Answer C: 3 finger
+Answer D: 4 finger
+Answer E: 5 finger
+Answer F: 6 finger
+Answer G: 7 finger
+Answer H: 8 finger
+
+* Challenge 4: Complex Messages
+Describe a system you propose for sending messages with more than 8 options.
+Binary (thumbs up and thumbs down) to have 2^x states
+* Reflection quiz:
+1: C
+2: Name a random number
+3: Name a random number from 1-64
+
+
+II. Lesson 3
+
+* Your Prototocol: List the steps and rules of your protocol here.
+Start by saying go
+Receive/send every 2 seconds
+* Performance - what bit rate were you able to achieve?
+Bits Transmitted: 2
+Time in Seconds:
+Bit Rate: 0.5 bits/sec
+
+* Reflection quiz:
+1: AABB
+2: 2 Bits
+3: We would have to know what each height represents and when to read the graph.
+4: CAB
+
+
+III. Lesson 4
+
+How many different three-piece sequences can you make using $, &, and #?
+27
+What is a systematic way of finding all the possibilities?
+Start with all the combinations beginning with one of the choices, then keep doing it.
+[Bonus] How would you arrange them if they were a number system - for counting in base 3?
+From left to right and then from up to down! Spaces can represent breaks.
+
+IV. Lesson 5
+
+* All 4-bit numbers: (use tab to create a table)
+0000	0
+0001	1
+0010	2
+0011	3
+0100	4
+0101	5
+0110	6
+0111	7
+1000	8
+1001	9
+1010	10
+1011	11
+1100	12
+1101	13
+1110	14
+1111	15
+
+* 8-bit numbers with exactly one 1:
+0000 0001	1
+0000 0010	2
+0000 0100	4
+0000 1000	8
+0001 0000	16
+0010 0000	32
+0100 0000	64
+1000 0000	128
+
+* Conversion Practice!
+Binary to decimal
+100	4
+101	5
+1101	13
+0001 1111	31
+0010 0000	32
+1010 1010	170
+1111 1111	255
+
+Decimal to binary
+5	101
+17	10001
+63	111111
+64	1000000
+127	1111111
+256	10000000
+513	100000001
+
+Show your work: explain the math you can use to convert from binary to decimal. Use for an example: 10101010.
+You use place values based on the number in the digit to convert it to base ten.
+
+Show your work: Can you explain the math needed to convert from decimal to binary? Use 79 as an example.
+Other way around
+
+* Reflection Quiz:
+1: If the last number is 0, it is even. Otherwise, it’s odd
+2: 11 bits
+3: 511
+
+* Hexadecimal:
+
+Show your work: How would you convert from hexadecimal to decimal? Typing out the small math problems you use to get there is a good way of showing it.
+The first from right digit would represent one, and the rest going from right to left represent 16^x, where x is the distance from the right.
+
+How can you convert back from decimal to hex? 
+Vice versa
+
+
+V. Lesson 6
+
+Explain the steps of your protocol. 
+We decided on a coordinate graph. Then, we sent each other the coordinates each point, starting with the x-coord.
+
+How does the recipient know when one number ends and the other begins?
+We sent each message separately to avoid confusion.
+
+Do you need to modify the protocol when using a larger grid?
+No
+
+VI. Lesson 7
+
+Not graded :)
